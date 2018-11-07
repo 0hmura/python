@@ -1,2 +1,2 @@
 # python
-Test de scriptspython
+Test de scripts python

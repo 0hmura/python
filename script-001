@@ -1,6 +1,14 @@
-hello = "hello"
-espace = " "
-world = "world"
+# Script rattrapage deploiement
 
-helloworld = hello + espace + world
-print(helloworld)
+mdpDBR = input("Saisissez le mot de passe du compte Administrateur du DBR : ")
+
+print("Liste DBR : ")
+ListeDBR = open('/home/admin/python/liste.txt', 'r')
+print(ListeDBR)
+choix = input("Est-ce correct ? Oui (O) ou Non (N)")
+if choix == 'O':
+	print("Cool")
+elif choix == 'N':
+	print("Aurevoir")
+else:
+	print("Erreur saisie")
